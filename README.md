@@ -1,5 +1,7 @@
 # libsodium Sealed Box for TweetNaCl.js
 
+_forked from [whs](https://github.com/whs) by [Pay Theory](https://github.com/pay-theory) for maintenance_
+
 This library implements [sealed box](https://download.libsodium.org/doc/public-key_cryptography/sealed_boxes.html) for TweetNaCl.
 
 From libsodium's documentation:
@@ -47,13 +49,11 @@ This library should be interoperable with libsodium's implementation of sealed b
 
 ## Security
 
-I'm not a security expert, so use this at your own risk.
-
 This library does not zero out memory except for the ephemeral secret key. However, the JavaScript run time in use may not guaranteed that the memory is securely wiped.
+
+*Software has not been audited for security use at your own risk.*
 
 ## License
 
 This library is licensed under the [MIT license](LICENSE.txt).
-
-This project is [unmaintained](http://unmaintained.tech/). You may use it, but issues and pull requests might be ignored.
 
