@@ -7,7 +7,7 @@
   "modules.root": "src",
   "scripts": {
     "test": "webpack --config webpack.node.config.js && mocha",
-    "prepublishOnly": "webpack --config webpack.node.config.js && webpack -p --config webpack.web.config.js"
+    "prepublishOnly": "webpack --config webpack.node.config.js && webpack --config webpack.web.config.js"
   },
   "author": "",
   "license": "MIT",
