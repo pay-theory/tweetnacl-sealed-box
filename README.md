@@ -1,5 +1,7 @@
 # libsodium Sealed Box for TweetNaCl.js
 
+forked from [whs](https://github.com/whs/tweetnacl-sealed-box) by [Pay Theory](https://github.com/pay-theory/tweetnacl-sealed-box) for maintenance
+
 This library implements [sealed box](https://doc.libsodium.org/public-key_cryptography/sealed_boxes) for TweetNaCl.
 
 From libsodium's documentation:
