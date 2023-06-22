@@ -1,13 +1,13 @@
-var nodeExternals = require('webpack-node-externals');
+var nodeExternals = require("webpack-node-externals");
 
 module.exports = {
-	entry: './entrypoint',
+	entry: "./entrypoint",
 	output: {
 		path: __dirname,
-		filename: 'sealedbox.node.js',
-		libraryTarget: 'umd',
+		filename: "sealedbox.node.js",
+		libraryTarget: "umd",
 	},
-	target: 'node',
-	mode: 'production',
+	target: "node",
+	mode: "production",
 	externals: [nodeExternals()],
 };

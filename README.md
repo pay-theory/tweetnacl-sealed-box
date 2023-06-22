@@ -17,7 +17,7 @@ From libsodium's documentation:
 This module can be installed from npm:
 
 ```sh
-npm install tweetnacl-sealedbox-js
+npm install @paytheory/tweetnacl-sealedbox-js
 ```
 
 For use in web browsers, use [sealedbox.web.js](sealedbox.web.js).
@@ -47,13 +47,10 @@ This library should be interoperable with libsodium's implementation of sealed b
 
 ## Security
 
-I'm not a security expert, so use this at your own risk.
-
 This library does not zero out memory except for the ephemeral secret key. However, the JavaScript run time in use may not guaranteed that the memory is securely wiped.
+
+_Software has not been audited for security use at your own risk._
 
 ## License
 
 This library is licensed under the [MIT license](LICENSE.txt).
-
-This project is [unmaintained](http://unmaintained.tech/). You may use it, but issues and pull requests might be ignored.
-
