@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "libsodium-wrappers": "^0.7.11",
-    "mocha": "^8.4.0",
+    "mocha": "^11.1.0",
     "webpack": "^5.88.0",
     "webpack-cli": "^4.10.0",
     "webpack-node-externals": "^2.5.2"
